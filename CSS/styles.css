@@ -1,0 +1,175 @@
+ @font-face {
+   font-family: "Inter";
+   src: url("fonts/Inter-VariableFont_slnt,wght.ttf");
+ }
+
+ body {
+   margin: 0 15%;
+   color: #000;
+ }
+
+ hr {
+   color: #fff;
+   border-width: 2px;
+   margin: 13% 0;
+ }
+
+@media (max-width: 500px) {
+  h1.main-title {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .col-7 a {
+    font-size: 0.9rem;
+  }
+
+  .col-7 p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width:501px) and (max-width: 989px) {
+  p.main-paragraph {
+    font-size: 1.4rem;
+  }
+}
+
+ @media (max-width: 990px) {
+   body {
+     padding: 0;
+     margin: 3%;
+   }
+
+   hr {
+     color: #fff;
+     border-width: 2px;
+     margin: 40px 0;
+   }
+
+   .container-fluid {
+     margin: 0 3%;
+   }
+
+   .headlines-column {
+     margin: 5% 0;
+   }
+
+   .bottom-row, .bottom-small-row, .col-5, .col-lg-6, .col-lg-8 {
+     margin: 0;
+     padding: 0;
+   }
+
+   .bottom-row .col-lg-4 {
+     padding: 0;
+   }
+ }
+
+ @media (min-width:991px){
+   .navbar {
+     left: 1%;
+   }
+   .col-lg-8 {
+     padding-right: 3%;
+   }
+ }
+
+ .navbar {
+   margin:auto;
+ }
+
+ .container-fluid {
+   padding: 0;
+   width: 100%;
+ }
+
+ .nav-link {
+   font-weight: 600;
+   margin: 0 10px;
+   font-size: 1.5rem;
+ }
+
+ .nav-link:hover {
+   color: #ea6459;
+ }
+
+ .large-image {
+   width: 100%;
+ }
+
+ .row {
+   width: 100%;
+   margin: auto;
+ }
+
+ .main-title {
+   font-size: 3.5rem;
+   font-weight: 900;
+   line-height: 3.5rem;
+   margin-top: 10%;
+ }
+
+ .main-paragraph {
+   margin-top: 5%;
+   font-size: 1.2rem;
+ }
+
+ .button-read-more {
+   background-color: #f35c52;
+   color: #fff;
+   border-radius: 0;
+   border-width: 0;
+   letter-spacing: 0.3rem;
+   font-size: 1rem;
+   font-weight: 600;
+   padding: 3% 7%;
+   margin: 16% 0 0 0;
+   transition: 0.3s;
+ }
+
+ .button-read-more:hover {
+   background-color: #00001a;
+ }
+
+ .headlines-column {
+   background-color: #00001a;
+   padding: 3%;
+ }
+
+ .headlines-column h1 {
+   color: #e8a94a;
+ }
+
+ .headlines-column a, .headlines-column p {
+   color: #fff;
+ }
+
+ .headlines-column p {
+   color: #bdbbcd;
+ }
+
+ .bottom-row {
+   margin-top: 5%;
+ }
+
+ .bottom-small-row {
+   margin: 5% 0;
+ }
+ .col-7 h2 {
+   color: #c8c7cf;
+   font-size: 2.5rem;
+   font-weight: 700;
+ }
+  .col-7 a {
+    color: #000;
+  }
+
+ .col-7 a, .headlines-column a {
+   text-decoration: none;
+   font-size: 1.5rem;
+   transition: 0.3s;
+ }
+
+ .col-7 a:hover, .headlines-column a:hover {
+   color: #ea6459;
+   text-decoration: none;
+ }
